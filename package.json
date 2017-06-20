@@ -1,0 +1,22 @@
+{
+  "name": "alexa-beer-tasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chad Smith <chad@developer.email>",
+  "dependencies": {
+    "alexa-app": "^4.0.1",
+    "express": "^4.15.3",
+    "twilio": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}

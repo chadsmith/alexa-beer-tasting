@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "Back",
+      "samples": [
+        "go back",
+        "back",
+        "previous",
+        "previous beer",
+        "go back one"
+      ],
+      "slots": []
+    },
+    {
+      "name": "Next",
+      "samples": [
+        "start the tasting",
+        "pick the next beer",
+        "what's the next beer",
+        "the next beer",
+        "next beer",
+        "skip this one",
+        "skip",
+        "skip that one",
+        "skip this one for now",
+        "yes",
+        "start",
+        "give us the next beer",
+        "continue",
+        "another one",
+        "next",
+        "another"
+      ],
+      "slots": []
+    },
+    {
+      "name": "Repeat",
+      "samples": [
+        "repeat that",
+        "say that again",
+        "repeat the beer",
+        "repeat"
+      ],
+      "slots": []
+    },
+    {
+      "name": "SendLink",
+      "samples": [
+        "send everyone the untapped link",
+        "send everyone the link",
+        "send everyone the untappd link",
+        "send us the link",
+        "send the link",
+        "the link",
+        "text us the link",
+        "text the link",
+        "text everyone the link"
+      ],
+      "slots": []
+    }
+  ]
+}
